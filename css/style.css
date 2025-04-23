@@ -32,7 +32,7 @@ body{
 .wrap-2 .navbar .nav-item .nav-link{font: 600 14px var(--pf); color: var(--nav) !important;}
 .wrap-2 .navbar .nav-item span{font-size: 20px; vertical-align: middle;}
 .wrap-2 .navbar .nav-item .nav-link:hover{color: var(--blue) !important;}
-.wrap-2 .navbar .dropdown{display: none;  background-color: var(--orange); position: absolute; top: 40px; z-index: 100;}
+.wrap-2 .navbar .dropdown{display: none;  background-color: var(--orange); position: absolute; top: 70px; z-index: 100;}
 .wrap-2 .navbar .dropdown ul li{padding: 12px 16px; border-bottom: 1px solid var(--white);}
 .wrap-2 .navbar .dropdown ul li:last-child{border-bottom: none;}
 .wrap-2 .navbar .dropdown ul li a{color: var(--white); font: 600 14px var(--pf);}
