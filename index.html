@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eagle River Outfitters</title>
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-</head>
-<body>
+  </head>
+  <body>
     <div class="wrap-1">
         <div class="container-lg">
             <div class="info d-flex justify-content-end">
@@ -17,7 +17,7 @@
             </div>
         </div>
     </div>
-    <div class="wrap-2">
+    <div class="wrap-2 sticky-top">
       <div class="container-lg">
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
@@ -94,7 +94,7 @@
         </nav>
       </div>
     </div>
-    <section class="wrap-3">
+    <section class="wrap-3 banner">
       <div class="container-lg">
         <div class="inner-text">
           <h1>Colorado's Fly Fishing Outfitter</h1>
@@ -179,50 +179,80 @@
         <div class="row g-4">
           <div class="col-md-4">
             <div class="box">
-              <img src="./image/dry-flies-150x150-1.jpg" alt="dry-flies" class="img-fluid">
-              <h3>Dries</h3>
-              <p>Browse our selection of Dries for fly fishing.</p>
-              <a class="button" href="#">Browse Dries</a>
+              <div class="overlay">
+                <h3>Browse Dries</h3>
+              </div>
+              <div class="box-content">
+                <img src="./image/dry-flies-150x150-1.jpg" alt="dry-flies" class="img-fluid">
+                <h3>Dries</h3>
+                <p>Browse our selection of Dries for fly fishing.</p>
+                <a class="button" href="./ero.html">Browse Dries</a>
+              </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="box">
-              <img src="./image/nymph-flies-150x150-1.jpg" alt="nymph-flies" class="img-fluid">
-              <h3>Nymphs</h3>
-              <p>Browse our selection of Nymphs for fly fishing.</p>
-              <a class="button" href="#">Browse Nymphs</a>
+              <div class="overlay">
+                <h3>Browse Nymphs</h3>
+              </div>
+              <div class="box-content">
+                <img src="./image/nymph-flies-150x150-1.jpg" alt="nymph-flies" class="img-fluid">
+                <h3>Nymphs</h3>
+                <p>Browse our selection of Nymphs for fly fishing.</p>
+                <a class="button" href="#">Browse Nymphs</a>
+              </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="box">
-              <img src="./image/streamer-flies.jpg" alt="streamer-flies" class="img-fluid">
-              <h3>Streamers</h3>
-              <p>Browse our selection of Streamers for fly fishing.</p>
-              <a class="button" href="#">Browse Streamers</a>
+              <div class="overlay">
+                <h3>Browse Streamers</h3>
+              </div>
+              <div class="box-content">
+                <img src="./image/streamer-flies.jpg" alt="streamer-flies" class="img-fluid">
+                <h3>Streamers</h3>
+                <p>Browse our selection of Streamers for fly fishing.</p>
+                <a class="button" href="#">Browse Streamers</a>
+              </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="box">
-              <img src="./image/saltwater-flies.jpg" alt="Saltwater-flies" class="img-fluid">
-              <h3>Saltwater</h3>
-              <p>Browse our selection of Saltwater for fly fishing.</p>
-              <a class="button" href="#">Browse Saltwater</a>
+              <div class="overlay">
+                <h3>Browse Saltwater</h3>
+              </div>
+              <div class="box-content">
+                <img src="./image/saltwater-flies.jpg" alt="Saltwater-flies" class="img-fluid">
+                <h3>Saltwater</h3>
+                <p>Browse our selection of Saltwater for fly fishing.</p>
+                <a class="button" href="#">Browse Saltwater</a>
+              </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="box">
-              <img src="./image/salmon-flies.jpg" alt="Salmon-flies" class="img-fluid">
-              <h3>Salmon</h3>
-              <p>Browse our selection of Salmon for fly fishing.</p>
-              <a class="button" href="#">Browse Salmon</a>
+              <div class="overlay">
+                <h3>Browse Saltwater</h3>
+              </div>
+              <div class="box-content">
+                <img src="./image/salmon-flies.jpg" alt="Salmon-flies" class="img-fluid">
+                <h3>Salmon</h3>
+                <p>Browse our selection of Salmon for fly fishing.</p>
+                <a class="button" href="#">Browse Salmon</a>
+              </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="box">
-              <img src="./image/terrestrial-flies.jpg" alt="Terrestrials-flies" class="img-fluid">
-              <h3>Terrestrials</h3>
-              <p>Browse our selection of Terrestrials for fly fishing.</p>
-              <a class="button" href="#">Browse Terrestrials</a>
+              <div class="overlay">
+                <h3>Browse Saltwater</h3>
+              </div>
+              <div class="box-content">
+                <img src="./image/terrestrial-flies.jpg" alt="Terrestrials-flies" class="img-fluid">
+                <h3>Terrestrials</h3>
+                <p>Browse our selection of Terrestrials for fly fishing.</p>
+                <a class="button" href="#">Browse Terrestrials</a>
+              </div>
             </div>
           </div>
         </div>
@@ -281,5 +311,6 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-</body>
+    <script src="./js/animation.js"></script>
+  </body>
 </html>
