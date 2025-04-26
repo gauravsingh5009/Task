@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
     <div class="wrap-1">
         <div class="container-lg">
             <div class="info d-flex justify-content-end">
@@ -17,12 +18,12 @@
             </div>
         </div>
     </div>
-    <div class="wrap-2">
+    <div class="wrap-2 sticky-top">
       <div class="container-lg">
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="./image/eagle-river-outfitter-logo.png" alt="">
+            <a class="navbar-brand" href="./index.html">
+              <img src="./image/eagle-river-outfitter-logo.png" alt="logo">
             </a>
             <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -103,31 +104,82 @@
     </section>
     <section class="wrap-6">
       <div class="container-lg">
-        <div class="row">
-            <div class="col-md-8">
-                <h2 class="text-start">Fly Fishing Outfitter Serving Colorado</h2>
-                <p class="text-start mb-4">Eagle River Outfitter is one of Vail's leading fly fishing outfitters. We are humbled and proud to guide our fishing clients on Colorado's most unique and beautiful freestone streams. Dave and his staff have over 25 combined years in the business, which is why they decided to go direct-to-consumer, starting "ERO" to provide Vail's finest fishing guide service.</p>
-                <p class="text-start mb-4">Our guests expect nothing but the best and leave with their expectations exceeded. Why? Because their ERO guide lives and breathes fly fishing in the Vail Valley. Because they cut their teeth out here, respect the river and its environment, and keep up to date with hatches, flows, and prime spots. Because whether it's four hours or four days, providing you with the best experience is their priority</p>
-                <p class="text-start mb-4">We know there are plenty of fly fishing shops in the Vail Valley for you to choose from. Eagle River Outfitter isn't one of many "four-hour excursions" on your 5 day vacation. Rather, it's a life experience and a learning experience. Most importantly, it's making a friend on the river. You will leave at day's end a fly fisherman, most likely with an ear-to-ear grin.</p>
-                <p class="text-start mb-4">We want to get to know you. We hope that you will visit us and Colorado again. We want you to be the one who can boast about taking the fish photo. We want you to expand your knowledge on fly fishing in Colorado rivers such as the Eagle, Roaring Fork and the Colorado..</p>
+        <div class="text-center">
+            <h2 class="text-start">Fly Fishing Outfitter Serving Colorado</h2>
+            <p class="text-start mb-4">Eagle River Outfitter is one of Vail's leading fly fishing outfitters. We are humbled and proud to guide our fishing clients on Colorado's most unique and beautiful freestone streams. Dave and his staff have over 25 combined years in the business, which is why they decided to go direct-to-consumer, starting "ERO" to provide Vail's finest fishing guide service.</p>
+            <p class="text-start mb-4">Our guests expect nothing but the best and leave with their expectations exceeded. Why? Because their ERO guide lives and breathes fly fishing in the Vail Valley. Because they cut their teeth out here, respect the river and its environment, and keep up to date with hatches, flows, and prime spots. Because whether it's four hours or four days, providing you with the best experience is their priority</p>
+            <p class="text-start mb-4">We know there are plenty of fly fishing shops in the Vail Valley for you to choose from. Eagle River Outfitter isn't one of many "four-hour excursions" on your 5 day vacation. Rather, it's a life experience and a learning experience. Most importantly, it's making a friend on the river. You will leave at day's end a fly fisherman, most likely with an ear-to-ear grin.</p>
+            <p class="text-start mb-4">We want to get to know you. We hope that you will visit us and Colorado again. We want you to be the one who can boast about taking the fish photo. We want you to expand your knowledge on fly fishing in Colorado rivers such as the Eagle, Roaring Fork and the Colorado..</p>
+        </div>
+        <div class="row g-0">
+            <div class="col-lg-3 col-md-4" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="gallery-item">
+                    <a href="./image/ero2.jpg">
+                        <img src="./image/ero2.jpg" alt="ero2" class="img-fluid">
+                    </a>
+                </div>
             </div>
-            <div class="col-md-4">
-                <div class="row g-2">
-                    <div class="col-md-6">
-                        <img src="./image/ero1.jpg" alt="ero1" class="img-fluid">
-                        <img src="./image/ero2.jpg" alt="ero1" class="img-fluid mt-2">
-                        <img src="./image/ero3.jpg" alt="ero1" class="img-fluid mt-2">
-                        <img src="./image/ero4.jpg" alt="ero1" class="img-fluid mt-2">
-                        <img src="./image/ero5.jpg" alt="ero1" class="img-fluid mt-2">
-                        <img src="./image/ero6.jpg" alt="ero1" class="img-fluid mt-2">
-                    </div>
-                    <div class="col-md-6">
-                        <img src="./image/ero7.jpg" alt="ero1" class="img-fluid">
-                        <img src="./image/ero8.jpg" alt="ero1" class="img-fluid mt-2">
-                        <img src="./image/ero9.jpg" alt="ero1" class="img-fluid mt-2">
-                        <img src="./image/ero10.jpg" alt="ero1" class="img-fluid mt-2">
-                        <img src="./image/ero11.jpg" alt="ero1" class="img-fluid mt-2">
-                    </div>
+            <div class="col-lg-3 col-md-4" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="gallery-item">
+                    <a href="./image/ero3.jpg">
+                        <img src="./image/ero3.jpg" alt="ero3" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="gallery-item">
+                    <a href="./image/ero4.jpg">
+                        <img src="./image/ero4.jpg" alt="ero4" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="gallery-item">
+                    <a href="./image/ero5.jpg">
+                        <img src="./image/ero5.jpg" alt="ero5" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="gallery-item">
+                    <a href="./image/ero6.jpg">
+                        <img src="./image/ero6.jpg" alt="ero6" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="gallery-item">
+                    <a href="./image/ero7.jpg">
+                        <img src="./image/ero7.jpg" alt="ero7" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="gallery-item">
+                    <a href="./image/ero8.jpg">
+                        <img src="./image/ero8.jpg" alt="ero8" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="gallery-item">
+                    <a href="./image/ero9.jpg">
+                        <img src="./image/ero9.jpg" alt="ero9" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="gallery-item">
+                    <a href="./image/ero10.jpg">
+                        <img src="./image/ero10.jpg" alt="ero10" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="gallery-item">
+                    <a href="./image/ero11.jpg">
+                        <img src="./image/ero11.jpg" alt="ero11" class="img-fluid">
+                    </a>
                 </div>
             </div>
         </div>
@@ -186,5 +238,9 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-</body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
